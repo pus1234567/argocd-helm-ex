@@ -11,6 +11,6 @@ spec:
       targetPort: http
       protocol: TCP
       name: http
-      nodePort: 30000
+      nodePort: 32000
   selector:
     {{- include "quarkus-app.selectorLabels" . | nindent 4 }}
